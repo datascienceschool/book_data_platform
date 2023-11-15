@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "데이터 사이언스 스쿨 - 데이터 플랫폼 편"
+  author: "김도형"
+  date: "2023-11-14"
+  chapters:
+    - index.ipynb
+    - contents/datastore/index.ipynb
+    - contents/datastore/google_sheets.ipynb
+
+format:
+  pdf:
+    include-in-header:
+      - text: |
+          \usepackage[hangul]{xetexko}
+          \setmainfont{NotoSansCJKkr-Regular}
+          \setsansfont{NotoSansCJKkr-Regular}
+          \setmonofont{D2Coding}
+          \setromanfont{NotoSansCJKkr-Regular}
+          \setmainhangulfont{NotoSansCJKkr-Regular}
+          \setsanshangulfont{NotoSansCJKkr-Regular}
+          \setmonohangulfont{D2Coding}
+          \setmainhanjafont{NotoSansCJKkr-Regular}
+  docx: default
