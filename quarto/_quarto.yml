@@ -8,27 +8,43 @@ website:
   title: "목차"
   sidebar:
     style: "docked"
+    collapse-level: 1
     search: true
     contents:
       - href: index.ipynb
         text: "들어가는 글"
-      - section: "데이터 플랫폼이란"
-      - section: "데이터 처리 기초"
-      - section: "파일기반 데이터 저장소"
+      - section: "1장 데이터 분석의 소개"
         contents:
-          - contents/datastore/index.ipynb
-          - contents/datastore/google_sheets.ipynb
-      - section: "관계형 데이터베이스"
-      - section: "데이터 분산 처리"
+          - contents/chap01/00_intro.ipynb
+          - contents/chap01/01_introduction.ipynb
+          - contents/chap01/02_devenv.ipynb
+          - contents/chap01/99_closing.ipynb
+      - section: "2장 파이썬 기반 데이터 분석의 기초"
         contents:
-          - section: "Dask"
-          - section: "Ray"
-          - section: "Modin"
-      - section: "데이터 추출, 변환, 적재"
-      - section: "스케줄링"
+          - contents/chap02/00_intro.ipynb
+          - contents/chap02/01_pandas.ipynb
+          - contents/chap02/02_arrow.ipynb
+          - contents/chap02/03_polars.ipynb
+          - contents/chap02/99_closing.ipynb
+      - section: "3장 SQL 기반 데이터 분석의 기초"
+        contents:
+          - contents/chap03/00_intro.ipynb
+          - contents/chap03/01_sqlite.ipynb
+          - contents/chap03/02_duckdb.ipynb
+          - contents/chap03/03_sqlalchemy.ipynb
+          - contents/chap03/04_ibis.ipynb
+          - contents/chap03/99_closing.ipynb
+      - section: "4장 원격 데이터 저장소"
+        contents:
+          - contents/chap04/00_intro.ipynb
+          - contents/chap04/01_s3.ipynb
+          - contents/chap04/02_gspread.ipynb
+          - contents/chap04/99_closing.ipynb
 
 format:
   html:
     theme: cosmo
     css: web_resource/styles.css
     toc: true
+    grid:
+      sidebar-width: 350px
