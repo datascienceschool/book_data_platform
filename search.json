@@ -1,0 +1,151 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "데이터 사이언스 스쿨 - 데이터 플랫폼 편",
+    "section": "",
+    "text": "데이터를 저장하고 처리하기 위한 다양한 플랫폼 기술을 소개합니다.",
+    "crumbs": [
+      "들어가는 글"
+    ]
+  },
+  {
+    "objectID": "contents/chap01/02_devenv.html#vs-code-설치",
+    "href": "contents/chap01/02_devenv.html#vs-code-설치",
+    "title": "실습환경 구축",
+    "section": "VS Code 설치",
+    "text": "VS Code 설치",
+    "crumbs": [
+      "1장 데이터 분석의 소개",
+      "실습환경 구축"
+    ]
+  },
+  {
+    "objectID": "contents/chap01/02_devenv.html#docker-설치",
+    "href": "contents/chap01/02_devenv.html#docker-설치",
+    "title": "실습환경 구축",
+    "section": "Docker 설치",
+    "text": "Docker 설치",
+    "crumbs": [
+      "1장 데이터 분석의 소개",
+      "실습환경 구축"
+    ]
+  },
+  {
+    "objectID": "contents/chap01/02_devenv.html#클라우드-서비스-등록",
+    "href": "contents/chap01/02_devenv.html#클라우드-서비스-등록",
+    "title": "실습환경 구축",
+    "section": "클라우드 서비스 등록",
+    "text": "클라우드 서비스 등록",
+    "crumbs": [
+      "1장 데이터 분석의 소개",
+      "실습환경 구축"
+    ]
+  },
+  {
+    "objectID": "contents/chap07/02_gspread.html",
+    "href": "contents/chap07/02_gspread.html",
+    "title": "구글 Sheets",
+    "section": "",
+    "text": "구글 클라우드 계정 생성\n서비스 계정 생성\n키 파일 생성\nAPI 사용 설정\ngspread 파이썬 패키지 설치 및 사용",
+    "crumbs": [
+      "7장 파일 데이터 저장소",
+      "구글 Sheets"
+    ]
+  },
+  {
+    "objectID": "contents/chap07/02_gspread.html#구글-sheets-api를-사용하기-위한-절차",
+    "href": "contents/chap07/02_gspread.html#구글-sheets-api를-사용하기-위한-절차",
+    "title": "구글 Sheets",
+    "section": "",
+    "text": "구글 클라우드 계정 생성\n서비스 계정 생성\n키 파일 생성\nAPI 사용 설정\ngspread 파이썬 패키지 설치 및 사용",
+    "crumbs": [
+      "7장 파일 데이터 저장소",
+      "구글 Sheets"
+    ]
+  },
+  {
+    "objectID": "contents/chap07/02_gspread.html#구글-클라우드-계정-생성",
+    "href": "contents/chap07/02_gspread.html#구글-클라우드-계정-생성",
+    "title": "구글 Sheets",
+    "section": "구글 클라우드 계정 생성",
+    "text": "구글 클라우드 계정 생성\n\nhttps://cloud.google.com 접속. “무료로 시작하기” 버튼 클릭\n\n\n\n구글 메일 계정으로 로그인\n\n\n\n클라우드 계정 설정 1단계\n\n\n\n클라우드 계정 설정 2단계: 결제 정보\n\n\n\n설문조사\n\n\n\n계정 초기 화면",
+    "crumbs": [
+      "7장 파일 데이터 저장소",
+      "구글 Sheets"
+    ]
+  },
+  {
+    "objectID": "contents/chap07/02_gspread.html#서비스-계정-생성",
+    "href": "contents/chap07/02_gspread.html#서비스-계정-생성",
+    "title": "구글 Sheets",
+    "section": "서비스 계정 생성",
+    "text": "서비스 계정 생성\n\n“My First Project”로 이동\n\n\n\n“탐색 메뉴” &gt; “IAM 및 관리자” &gt; “서비스 계정” 메뉴 선택\n\n\n\n서비스 계정 화면에서 “+ 서비스 계정 만들기” 링크 클릭\n\n\n\n서비스 계정 세부정보 입력\n\n\n\n역할을 “Basic &gt; 소유자” 설정\n\n\n\n서비스 계정 생성 완료 및 확인",
+    "crumbs": [
+      "7장 파일 데이터 저장소",
+      "구글 Sheets"
+    ]
+  },
+  {
+    "objectID": "contents/chap07/02_gspread.html#키-파일-생성",
+    "href": "contents/chap07/02_gspread.html#키-파일-생성",
+    "title": "구글 Sheets",
+    "section": "키 파일 생성",
+    "text": "키 파일 생성\n\n생성된 서비스 계정 클릭\n\n\n\n상단 메뉴에서 “키” 선택\n\n\n\n“키 추가 &gt; 새 키 만들기” 버튼 클릭\n\n\n\n키 유형을 “JSON”으로 선택\n\n\n\n컴퓨터에 파일 저장\n\n\n\n생성된 키를 확인\n\n\n\n키 파일을 “service_account.json”라는 이름으로 변경하여 “~/.config/gspread” 디렉토리에 저장\nservice_account.json 파일을 열어 client_email 주소를 별도로 저장 (이후에 사용)\n\n{\n  \"type\": \"service_account\",\n  ...(중간 생략)...\n  \"client_email\": \"sa-xxx@my-first-project-xxxx.iam.gserviceaccount.com\",\n  ...(이하 생략)...\n}",
+    "crumbs": [
+      "7장 파일 데이터 저장소",
+      "구글 Sheets"
+    ]
+  },
+  {
+    "objectID": "contents/chap07/02_gspread.html#api-사용-설정",
+    "href": "contents/chap07/02_gspread.html#api-사용-설정",
+    "title": "구글 Sheets",
+    "section": "API 사용 설정",
+    "text": "API 사용 설정\n\n계정 초기 화면에서 “탐색 메뉴” &gt; “API 및 서비스” &gt; “사용 설정된 API 및 서비스” 메뉴 선택\n\n\n\n현재 사용 설정된 API 목록 확인 후 상단 메뉴의 “+ API 및 서비스 사용 설정” 클릭\n\n\n\nAPI 목록 중에서 “Google Drive API” 선택\n\n\n\n“사용” 버튼 클릭\n\n\n\nAPI 설정 화면 확인\n\n\n\n다시 “API/서비스 세부 정보”로 돌아가서 이번에는 “Google Sheets API” 선택\n\n\n\n“Google Sheets API” 설정 확인\n\n\n\n사용 설정된 API 화면 목록에 “Google Drive API”와 “Google Sheets API”가 있는지 확인",
+    "crumbs": [
+      "7장 파일 데이터 저장소",
+      "구글 Sheets"
+    ]
+  },
+  {
+    "objectID": "contents/chap07/02_gspread.html#gspread-파이썬-패키지-설치-및-사용",
+    "href": "contents/chap07/02_gspread.html#gspread-파이썬-패키지-설치-및-사용",
+    "title": "구글 Sheets",
+    "section": "gspread 파이썬 패키지 설치 및 사용",
+    "text": "gspread 파이썬 패키지 설치 및 사용\n\npip 명령으로 gspread 패키지 설치\n\npip install gspread\n\ngspread 패키지 임포트\n\n\nimport gspread\n\n\n세션 객체 생성\n\n\ngc = gspread.service_account()\ngc\n\n&lt;gspread.client.Client at 0x13e831c30&gt;\n\n\n\n웹 브라우저로 구글 드라이브 웹사이트 https://drive.google.com 이동\n원하는 구글 드라이브 디렉토리에서 신규 구글 Sheet 생성\n\n\n\n\n공유버튼을 눌러 service_account.json 파일의 client_email 주소로 파일 공유\n\n\n\n생성된 구글 Sheet의 id 복사하여 사용\n\n\nsh = gc.open_by_key(\"1KsgZhDJKFDqUiRqf58PVDeyYWRKWpMh5oSpr_gAI5nU\")\nsh\n\n&lt;Spreadsheet 'gspread test 1' id:1KsgZhDJKFDqUiRqf58PVDeyYWRKWpMh5oSpr_gAI5nU&gt;",
+    "crumbs": [
+      "7장 파일 데이터 저장소",
+      "구글 Sheets"
+    ]
+  },
+  {
+    "objectID": "contents/chap04/02_sqlalchemy_core.html",
+    "href": "contents/chap04/02_sqlalchemy_core.html",
+    "title": "SqlAlchemy Core",
+    "section": "",
+    "text": "SqlAlchemy Core는 SqlAlchemy의 ORM의 핵심 철학인 객체 기반이 아니라 정통 SQL 방식의 기반처리를 담당하는 부분이며 SqlAlchemy ORM은 SqlAlchemy Core를 내부에서 사용한다.\nSqlAlchemy Core는 다음과 같은 특징을 가진다.",
+    "crumbs": [
+      "4장 SqlAlchemy를 이용한 데이터베이스 연동",
+      "SqlAlchemy Core"
+    ]
+  },
+  {
+    "objectID": "contents/chap04/02_sqlalchemy_core.html#테이블-정의",
+    "href": "contents/chap04/02_sqlalchemy_core.html#테이블-정의",
+    "title": "SqlAlchemy Core",
+    "section": "테이블 정의",
+    "text": "테이블 정의\nSqlAlchemy Core에서 각각의 테이블은 Table 클래스 객체로 생성되며 이렇게 생성된 Table 클래스 객체는 MetaData 클래스 객체에서 통합 관리한다.\nTable 클래스 객체를 생성하기 위해서는 인수로 MetaData 클래스 객체가 필요하므로 우선 다음과 같이 MetaData 클래스 객체를 생성해야 한다.\n\nimport sqlalchemy as sa\n\nmetadata_obj = sa.MetaData()\n\nmetadata_obj\n\nMetaData()\n\n\nTable 객체 생성자는 실제 데이터베이스의 테이블 이름 문자열과 MetaData 객체, 그리고 각 열을 정의하는 Column 객체를 인수로 받는다.\nTable_객체 = Table(\n  \"실제_데이터베이스의_테이블_이름_문자열\",\n  MetaData_객체,\n  Column_객체,\n  Column_객체,\n  Column_객체,\n  ...\n)\nColumn 객체 생성자는 ORM에서 사용하는 열 이름 문자열과, 열 데이터 타입, 그리고 기타 설정사항등을 인수로 받는다.\nColumn_객체 = Column(\n  \"ORM에서_사용하는_열_이름_문자열\",\n  열_데이터_타입,\n  ...(기타 설정사항)...\n)\n많이 사용되는 기타 설정사항 인수으로는 key, primary_key, nullable 등이 있다.\n\nkey: 데이터베이스 테이블에 생성되는 열의 실제 이름. ORM에서 사용하는 열 이름 문자열과 실제 열 이름을 다르게 하고 싶은 경우에 지정하며 이를 생략하면 첫번째 인수인 “ORM에서 사용하는 열 이름 문자열”을 그대로 사용한다.\nprimary_key: 해당 열을 기본키로 지정하고 싶으면 primary_key=True 인수를 지정한다. 복합 기본키(compound primary key)를 사용하고 싶으면 각각의 열에 primary_key 인수를 지정하거나 Table 객체를 생성할 때 별도의 키 제한조건을 넣는다.\nnullable: Null 값 입력을 가능하게 하고 싶으면 nullable=True 인수를 지정한다. 디폴트 값은 True\n\n또한 해당 열이 다른 테이블의 외래키인 경우 ForeignKey(\"테이블_이름.열_이름\")의 형식으로 ForeignKey 객체를 넣는다.\n다음은 user, user_prefs 두 개의 테이블을 정의하는 SqlAlchemy Core 예제코드다.\n\nuser = sa.Table(\n    \"user\",\n    metadata_obj,\n    sa.Column(\"user_id\", sa.Integer, primary_key=True),\n    sa.Column(\"user_name\", sa.String(16), nullable=False),\n    sa.Column(\"email_address\", sa.String(60), key=\"email\"),\n    sa.Column(\"nickname\", sa.String(50), nullable=False),\n)\n\nuser\n\nTable('user', MetaData(), Column('user_id', Integer(), table=&lt;user&gt;, primary_key=True, nullable=False), Column('user_name', String(length=16), table=&lt;user&gt;, nullable=False), Column('email_address', String(length=60), table=&lt;user&gt;, key='email'), Column('nickname', String(length=50), table=&lt;user&gt;, nullable=False), schema=None)\n\n\n\nuser_prefs = sa.Table(\n    \"user_prefs\",\n    metadata_obj,\n    sa.Column(\"pref_id\", sa.Integer, primary_key=True),\n    sa.Column(\"user_id\", sa.Integer, sa.ForeignKey(\"user.user_id\"), nullable=False),\n    sa.Column(\"pref_name\", sa.String(40), nullable=False),\n    sa.Column(\"pref_value\", sa.String(100)),\n)\n\nuser_prefs\n\nTable('user_prefs', MetaData(), Column('pref_id', Integer(), table=&lt;user_prefs&gt;, primary_key=True, nullable=False), Column('user_id', Integer(), ForeignKey('user.user_id'), table=&lt;user_prefs&gt;, nullable=False), Column('pref_name', String(length=40), table=&lt;user_prefs&gt;, nullable=False), Column('pref_value', String(length=100), table=&lt;user_prefs&gt;), schema=None)\n\n\n생성된 테이블 객체 정보는 MetaData 객체의 tables 및 sorted_tables 속성에 각각 딕셔너리 타입 및 리스트 타입 값으로 포함된다.\n\nmetadata_obj.tables\n\nFacadeDict({'user': Table('user', MetaData(), Column('user_id', Integer(), table=&lt;user&gt;, primary_key=True, nullable=False), Column('user_name', String(length=16), table=&lt;user&gt;, nullable=False), Column('email_address', String(length=60), table=&lt;user&gt;, key='email'), Column('nickname', String(length=50), table=&lt;user&gt;, nullable=False), schema=None), 'user_prefs': Table('user_prefs', MetaData(), Column('pref_id', Integer(), table=&lt;user_prefs&gt;, primary_key=True, nullable=False), Column('user_id', Integer(), ForeignKey('user.user_id'), table=&lt;user_prefs&gt;, nullable=False), Column('pref_name', String(length=40), table=&lt;user_prefs&gt;, nullable=False), Column('pref_value', String(length=100), table=&lt;user_prefs&gt;), schema=None)})\n\n\n\nmetadata_obj.sorted_tables\n\n[Table('user', MetaData(), Column('user_id', Integer(), table=&lt;user&gt;, primary_key=True, nullable=False), Column('user_name', String(length=16), table=&lt;user&gt;, nullable=False), Column('email_address', String(length=60), table=&lt;user&gt;, key='email'), Column('nickname', String(length=50), table=&lt;user&gt;, nullable=False), schema=None),\n Table('user_prefs', MetaData(), Column('pref_id', Integer(), table=&lt;user_prefs&gt;, primary_key=True, nullable=False), Column('user_id', Integer(), ForeignKey('user.user_id'), table=&lt;user_prefs&gt;, nullable=False), Column('pref_name', String(length=40), table=&lt;user_prefs&gt;, nullable=False), Column('pref_value', String(length=100), table=&lt;user_prefs&gt;), schema=None)]\n\n\n다음 코드로 tables 속성에 포함된 user 테이블 객체가 아까 정의한 user 테이블 객체임을 확인할 수 있다.\n\nuser is metadata_obj.tables[\"user\"]\n\nTrue\n\n\nTable 객체의 columns 또는 c 속성은 해당 테이블의 Column 객체를 포함하며 다음과 같이 접근할 수 있다.\n\nuser.columns.user_id\n\nColumn('user_id', Integer(), table=&lt;user&gt;, primary_key=True, nullable=False)\n\n\n\nuser.c.user_id\n\nColumn('user_id', Integer(), table=&lt;user&gt;, primary_key=True, nullable=False)\n\n\n\nuser.c[\"user_id\"]\n\nColumn('user_id', Integer(), table=&lt;user&gt;, primary_key=True, nullable=False)\n\n\n\nuser.c.email\n\nColumn('email_address', String(length=60), table=&lt;user&gt;, key='email')\n\n\n다음과 같이 복수의 Column 객체를 동시에 접근할 수도 있다.\n\nuser.c[\"user_id\", \"nickname\"]\n\n&lt;sqlalchemy.sql.base.ReadOnlyColumnCollection at 0x144487650&gt;\n\n\n\nfrom sqlalchemy import create_engine\n\nengine = create_engine(\"sqlite:///:memory:\", echo=True)\n\n\n%load_ext sql\n%sql engine\n\n\n%sqlcmd tables\n\n2024-02-15 16:04:57,970 INFO sqlalchemy.engine.Engine BEGIN (implicit; DBAPI should not BEGIN due to autocommit mode)\n2024-02-15 16:04:57,971 INFO sqlalchemy.engine.Engine SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite~_%' ESCAPE '~' ORDER BY name\n2024-02-15 16:04:57,972 INFO sqlalchemy.engine.Engine [raw sql] ()\n\n\n\n\n\nName\n\n\n\n\n\n\n\n\nmetadata_obj.create_all(engine)\n\n2024-02-15 16:04:58,029 INFO sqlalchemy.engine.Engine BEGIN (implicit)\n2024-02-15 16:04:58,031 INFO sqlalchemy.engine.Engine PRAGMA main.table_info(\"user\")\n2024-02-15 16:04:58,032 INFO sqlalchemy.engine.Engine [raw sql] ()\n2024-02-15 16:04:58,034 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info(\"user\")\n2024-02-15 16:04:58,035 INFO sqlalchemy.engine.Engine [raw sql] ()\n2024-02-15 16:04:58,036 INFO sqlalchemy.engine.Engine PRAGMA main.table_info(\"user_prefs\")\n2024-02-15 16:04:58,036 INFO sqlalchemy.engine.Engine [raw sql] ()\n2024-02-15 16:04:58,037 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info(\"user_prefs\")\n2024-02-15 16:04:58,038 INFO sqlalchemy.engine.Engine [raw sql] ()\n2024-02-15 16:04:58,040 INFO sqlalchemy.engine.Engine \nCREATE TABLE user (\n    user_id INTEGER NOT NULL, \n    user_name VARCHAR(16) NOT NULL, \n    email_address VARCHAR(60), \n    nickname VARCHAR(50) NOT NULL, \n    PRIMARY KEY (user_id)\n)\n\n\n2024-02-15 16:04:58,042 INFO sqlalchemy.engine.Engine [no key 0.00134s] ()\n2024-02-15 16:04:58,044 INFO sqlalchemy.engine.Engine \nCREATE TABLE user_prefs (\n    pref_id INTEGER NOT NULL, \n    user_id INTEGER NOT NULL, \n    pref_name VARCHAR(40) NOT NULL, \n    pref_value VARCHAR(100), \n    PRIMARY KEY (pref_id), \n    FOREIGN KEY(user_id) REFERENCES user (user_id)\n)\n\n\n2024-02-15 16:04:58,045 INFO sqlalchemy.engine.Engine [no key 0.00084s] ()\n2024-02-15 16:04:58,046 INFO sqlalchemy.engine.Engine COMMIT\n\n\n\n%sqlcmd tables\n\n2024-02-15 16:04:58,057 INFO sqlalchemy.engine.Engine SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite~_%' ESCAPE '~' ORDER BY name\n2024-02-15 16:04:58,060 INFO sqlalchemy.engine.Engine [raw sql] ()\n\n\n\n\n\nName\n\n\n\n\nuser\n\n\nuser_prefs",
+    "crumbs": [
+      "4장 SqlAlchemy를 이용한 데이터베이스 연동",
+      "SqlAlchemy Core"
+    ]
+  },
+  {
+    "objectID": "contents/chap02/02_arrow.html",
+    "href": "contents/chap02/02_arrow.html",
+    "title": "아파치 Arrow",
+    "section": "",
+    "text": "import pandas as pd\n\n\ns1 = pd.Series([-1.5, 0.2, None], dtype=\"float32\")\ns2 = pd.Series([-1.5, 0.2, None], dtype=\"float32[pyarrow]\")\n\n\ns1\n\n0   -1.5\n1    0.2\n2    NaN\ndtype: float32\n\n\n\ns2\n\n0    -1.5\n1     0.2\n2    &lt;NA&gt;\ndtype: float[pyarrow]\n\n\n\ndf1 = pd.DataFrame({\"c1\": s1, \"c2\": s1})\ndf2 = pd.DataFrame({\"c1\": s1, \"c2\": s2})\ndf3 = pd.DataFrame({\"c1\": s2, \"c2\": s2})\n\n\ndf1.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 3 entries, 0 to 2\nData columns (total 2 columns):\n #   Column  Non-Null Count  Dtype  \n---  ------  --------------  -----  \n 0   c1      2 non-null      float32\n 1   c2      2 non-null      float32\ndtypes: float32(2)\nmemory usage: 152.0 bytes\n\n\n\ndf2.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 3 entries, 0 to 2\nData columns (total 2 columns):\n #   Column  Non-Null Count  Dtype         \n---  ------  --------------  -----         \n 0   c1      2 non-null      float32       \n 1   c2      2 non-null      float[pyarrow]\ndtypes: float32(1), float[pyarrow](1)\nmemory usage: 153.0 bytes\n\n\n\ndf3.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 3 entries, 0 to 2\nData columns (total 2 columns):\n #   Column  Non-Null Count  Dtype         \n---  ------  --------------  -----         \n 0   c1      2 non-null      float[pyarrow]\n 1   c2      2 non-null      float[pyarrow]\ndtypes: float[pyarrow](2)\nmemory usage: 154.0 bytes\n\n\n\n%timeit s1.mean()\n\n63.7 µs ± 12.9 µs per loop (mean ± std. dev. of 7 runs, 10,000 loops each)\n\n\n\n%timeit s2.mean()\n\n43.4 µs ± 886 ns per loop (mean ± std. dev. of 7 runs, 10,000 loops each)"
+  }
+]

@@ -1,0 +1,9 @@
+/* css styles */
+
+* {
+  word-break: keep-all;
+}
+
+.chapter-number {
+  display: none;
+}
