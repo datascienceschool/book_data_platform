@@ -19,22 +19,27 @@ website:
           - contents/chap01/01_introduction.ipynb
           - contents/chap01/02_devenv.ipynb
           - contents/chap01/99_closing.ipynb
-      - section: "2장 파이썬 기반 데이터 분석의 기초"
+      - section: "2장 Pandas를 이용한 기초 데이터 분석"
         contents:
           - contents/chap02/00_intro.ipynb
-          - contents/chap02/01_pandas.ipynb
-          - contents/chap02/02_arrow.ipynb
-          - contents/chap02/03_polars.ipynb
           - contents/chap02/99_closing.ipynb
-      - section: "3장 SQL 기반 데이터 분석의 기초"
+      - section: "3장 Polars를 이용한 고속 데이터 분석"
         contents:
           - contents/chap03/00_intro.ipynb
-          - contents/chap03/01_sqlite.ipynb
-          - contents/chap03/02_duckdb.ipynb
-          - contents/chap03/03_sqlalchemy.ipynb
-          - contents/chap03/04_ibis.ipynb
           - contents/chap03/99_closing.ipynb
-      - section: "4장 원격 데이터 저장소"
+      - section: "4장 SqlAlchemy를 이용한 데이터베이스 연동"
+        contents:
+          - contents/chap03/00_intro.ipynb
+          - contents/chap03/99_closing.ipynb
+      - section: "5장 Alembic을 이용한 스키마 관리"
+        contents:
+          - contents/chap03/00_intro.ipynb
+          - contents/chap03/99_closing.ipynb
+      - section: "6장 Ibis를 이용한 데이터 분석"
+        contents:
+          - contents/chap03/00_intro.ipynb
+          - contents/chap03/99_closing.ipynb
+      - section: "7장 파일 데이터 저장소"
         contents:
           - contents/chap04/00_intro.ipynb
           - contents/chap04/01_s3.ipynb
@@ -47,4 +52,4 @@ format:
     css: web_resource/styles.css
     toc: true
     grid:
-      sidebar-width: 350px
+      sidebar-width: 390px
