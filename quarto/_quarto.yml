@@ -30,6 +30,9 @@ website:
       - section: "4장 SqlAlchemy를 이용한 데이터베이스 연동"
         contents:
           - contents/chap04/00_intro.ipynb
+          - contents/chap04/01_sqlalchemy_intro.ipynb
+          - contents/chap04/02_sqlalchemy_core.ipynb
+          - contents/chap04/03_sqlalchemy_orm.ipynb
           - contents/chap04/99_closing.ipynb
       - section: "5장 Alembic을 이용한 스키마 관리"
         contents:
