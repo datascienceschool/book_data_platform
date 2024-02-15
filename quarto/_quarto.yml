@@ -29,22 +29,22 @@ website:
           - contents/chap03/99_closing.ipynb
       - section: "4장 SqlAlchemy를 이용한 데이터베이스 연동"
         contents:
-          - contents/chap03/00_intro.ipynb
-          - contents/chap03/99_closing.ipynb
+          - contents/chap04/00_intro.ipynb
+          - contents/chap04/99_closing.ipynb
       - section: "5장 Alembic을 이용한 스키마 관리"
         contents:
-          - contents/chap03/00_intro.ipynb
-          - contents/chap03/99_closing.ipynb
+          - contents/chap05/00_intro.ipynb
+          - contents/chap05/99_closing.ipynb
       - section: "6장 Ibis를 이용한 데이터 분석"
         contents:
-          - contents/chap03/00_intro.ipynb
-          - contents/chap03/99_closing.ipynb
+          - contents/chap06/00_intro.ipynb
+          - contents/chap06/99_closing.ipynb
       - section: "7장 파일 데이터 저장소"
         contents:
-          - contents/chap04/00_intro.ipynb
-          - contents/chap04/01_s3.ipynb
-          - contents/chap04/02_gspread.ipynb
-          - contents/chap04/99_closing.ipynb
+          - contents/chap07/00_intro.ipynb
+          - contents/chap07/01_s3.ipynb
+          - contents/chap07/02_gspread.ipynb
+          - contents/chap07/99_closing.ipynb
 
 format:
   html:
